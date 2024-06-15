@@ -19,7 +19,7 @@ const CompanyDetails = () => {
     const fetchCompanyDetails = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:5001/api/details/${id}`
+          `https://webscrapper-api.vercel.app/api/details/${id}`
         );
         setCompany(response.data);
       } catch (error) {
