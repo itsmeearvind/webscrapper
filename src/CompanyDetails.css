@@ -1,0 +1,45 @@
+.company-details {
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .company-logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .company-info {
+    flex-grow: 1;
+  }
+  
+  .details {
+    margin-top: 20px;
+  }
+  
+  .screenshot {
+    margin-top: 20px;
+  }
+  
+  .screenshot img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .company-logo {
+      margin-bottom: 10px;
+    }
+  }
+  
