@@ -157,7 +157,7 @@ function Home() {
                   </td>
                   <td>
                     <div className="company-info">
-                      <Link to={`/details/${item._id}`} className="company-name">
+                      <Link to={`/${item._id}`} className="company-name">
                       <img
                         src={item.companyLogo}
                         alt="logo"
